@@ -1,0 +1,1 @@
+body{margin:0;padding:0}.timer,body{display:flex;justify-content:center;align-items:center}.timer{margin-top:200px;background:violet}.field{display:flex;flex-direction:column;justify-content:center;align-items:center;color:grey;font-family:sans-serif;font-size:30px;padding:0 30px;border:2px solid #8a2be2}.value{font-size:80px}
