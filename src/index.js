@@ -1,6 +1,5 @@
 import './styles.css';
 
-
 class CountdownTimer {
     constructor({ selector, targetDate }) {
         this.intervalId = null;
@@ -51,9 +50,7 @@ class CountdownTimer {
         this.refs.labels[2].innerText = `Minute${mins == 1 ? '' : 's'}`;
         this.refs.labels[3].innerText = `Second${secs == 1 ? '' : 's'}`;
     }
-    /*
-  * Принимает число, приводит к строке и добавляет в начало 0 если число меньше 2-х знаков
-  */
+
     pad(value) {
         return String(value).padStart(2, '0');
     }
